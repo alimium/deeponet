@@ -43,7 +43,7 @@ def fit(
 
 
 class Trainer:
-    def __init__(self, model, optimizer) -> None:
+    def __init__(self, model, optimizer=None) -> None:
         self.model = model
         self.optimizer = optimizer or self._get_default_optimizer()
         self.latest_training_losses = None
