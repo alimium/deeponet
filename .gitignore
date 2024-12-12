@@ -9,6 +9,13 @@ __pycache__/
 # Scratch files
 *.scratch.*
 
+# Data files
+data/
+*.png
+
+# MacOS
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/

@@ -12,6 +12,6 @@ The DeepONet architecture is composed of two main components:
 
 > In the simplest form, `branch net` and `trunk net` can be a simple feedforward neural network, sharing the same configurations.
 
-The output of the `branch net` and `trunk net` consists of the inner product of the intermediate representations, summed with a bias term.
+The output of the `branch net` and `trunk net` consist of the inner product of the intermediate representations, summed with a bias term.
 
 > There exists a variation of the DeepONet architecture where $p$ `branch nets` are vertically stacked and each one produces one of the $p$ dimensions of the intermediate representation. All of the elements are then concatenated to form a $p$ dimensional vector.
